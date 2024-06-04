@@ -1,0 +1,27 @@
+.box.secondary, .box.primary {
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.box.primary {
+  background-color: #8b8e91;
+}
+.box.secondary {
+  background-color: #351d2b;
+}
+
+.button {
+  color: white;
+  background-color: #e74c3c;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles2.css.map */

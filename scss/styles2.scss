@@ -1,0 +1,42 @@
+//@mixin, @include, y @extend
+// Mixin para bordes redondeados
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+            border-radius: $radius;
+}
+
+// Placeholder para estilos de caja
+%box-style {
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    @include border-radius(10px);
+}
+
+// Extender placeholder en clases
+.box {
+    &.primary {
+        @extend %box-style;
+        background-color: #8b8e91;
+    }
+
+    &.secondary {
+        @extend %box-style;
+        background-color: #351d2b;
+    }
+}
+
+// Mixin para botones
+@mixin button-style($color, $bg-color) {
+    color: $color;
+    background-color: $bg-color;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    @include border-radius(5px);
+}
+
+// Incluir mixin en botón
+.button {
+    @include button-style(white, #e74c3c);
+}

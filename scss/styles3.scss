@@ -1,0 +1,13 @@
+// Función para convertir píxeles a rem
+@function px-to-rem($px, $base-font-size: 16px) {
+    @return $px / $base-font-size * 1rem;
+}
+
+// Usar la función en una clase
+.box {
+    width: px-to-rem(320px);
+    height: px-to-rem(240px);
+    background-color: #3498db;
+    color: white;
+    padding: px-to-rem(20px);
+}

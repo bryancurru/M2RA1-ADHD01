@@ -1,0 +1,190 @@
+.for-box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.for-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.for-box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.for-box-4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.for-box-5 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.each-box-red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.each-box-green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.each-box-blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.each-box-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.each-box-purple {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.while-box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.while-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.while-box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.while-box-4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.while-box-5 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+}
+
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/*# sourceMappingURL=style5.css.map */

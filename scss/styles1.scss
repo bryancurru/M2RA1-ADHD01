@@ -1,0 +1,69 @@
+// Variables
+$primary-color: #db3434;
+$secondary-color: #2ecc71;
+$font-size-base: 16px;
+
+// Operadores
+$padding-base: 10px;
+$padding-double: $padding-base * 2;
+$margin-half: $padding-base / 2;
+
+// Tipos de Datos
+$border-width: 2px;
+$border-color: darken($primary-color, 10%);
+$border-style: solid;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.example-1 {
+    background-color: $primary-color;
+    color: white;
+    padding: $padding-base;
+    margin-bottom: $padding-base;
+
+    h1 {
+        font-size: $font-size-base * 1.5;
+    }
+
+    p {
+        font-size: $font-size-base;
+    }
+}
+
+.example-2 {
+    background-color: $secondary-color;
+    color: white;
+    padding: $padding-double;
+    margin-bottom: $padding-double;
+
+    h1 {
+        font-size: $font-size-base * 1.5;
+    }
+
+    p {
+        font-size: $font-size-base;
+        margin-bottom: $margin-half;
+    }
+}
+
+.example-3 {
+    background-color: lighten($primary-color, 20%);
+    color: #333;
+    padding: $padding-base;
+    border: $border-width $border-style $border-color;
+
+    h1 {
+        font-size: $font-size-base * 1.5;
+    }
+
+    p {
+        font-size: $font-size-base;
+    }
+}
+
+
